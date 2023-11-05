@@ -1,0 +1,131 @@
+.navbar {
+    background-color: var(--headings-box);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0.5rem;
+    position: fixed;
+    /* Bordure box */
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    box-shadow: 0 0 10px black;
+    z-index: 10;
+    list-style-type: none;
+  }
+
+  .navbar ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    font-weight: bold;
+    justify-content: flex-end;
+  }
+
+  .navbar ul li a {
+    color: var(--headings-text);
+    padding: 0.75rem;
+    font-weight: bold;
+    font-size: clamp(2rem, 1vw, 5rem);
+    list-style-type: none;
+    cursor: pointer;
+    font-family: "inter", sans-serif;
+  }
+
+  .navbar ul li a:hover {
+    color: #111;
+  }
+  .groot {
+    align-items: flex-start;
+    margin-top: 1rem;
+    cursor: pointer;
+
+    
+  }
+
+  .hambbutton {
+    display: none; 
+  }
+
+  @media screen and (max-width: 900px) {
+    .hambbutton {
+      display: block;
+    }
+     .navbar {
+      display: none ;
+     }
+    }
+
+    @media screen and (min-width: 900px) {
+      .hambbutton {
+        display: none;
+      }
+       .navbar {
+        display: flex;
+       }
+       .sidenav {
+        display: none;
+      }
+      }
+
+
+    /* Sidenav menu */
+.sidenav {
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: -250px;
+  background-color: #e8e8e8;
+  padding-top: 60px;
+  transition: left 0.5s ease;
+}
+
+/* Sidenav menu links */
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #111;
+}
+
+.sidenav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Active class */
+.sidenav.active {
+  left: 0;
+}
+
+/* Close btn */
+.sidenav .close {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+}
+
+/* Icône burger */
+ .hambbutton {
+  display: block;
+  position: fixed; /* a voir */
+  z-index: 1;
+  size: 1rem;
+  width: 3rem;
+  height: 3rem;
+  margin: 1rem ;
+  background-color: var(--box-color);
+  border-radius: 20%;
+}
+
+

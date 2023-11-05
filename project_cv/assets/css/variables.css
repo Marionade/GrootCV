@@ -1,0 +1,13 @@
+:root {
+    --box-color: #314D20;
+    --light-primary-color: #FFFFFF;
+    --darker-primary-color: #D9D9D9;
+    --text-color: rgb(255, 255, 255) ;
+    --body-text-size: clamp(1rem, 5vw, 3rem);
+    --section-title-font-size: clamp(1rem, 5vw, 3rem);
+    --filter: drop-shadow(2px 3px black);
+    --headings-box: #267C34;
+    --headings-text: #F2F0F1;
+} 
+
+

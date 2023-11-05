@@ -1,0 +1,76 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+  }
+
+  body {
+    background-color: #BEDBAE;
+  }
+ 
+ .photogrootjohn {   
+    display: block;
+    margin-top: 1rem;
+    border-radius: 70%;
+    justify-content : center;
+    box-shadow: 0 0 10px black;
+    width:15rem;
+    height: 15rem;
+}
+
+  .photoboxjohn {
+    display : flex;
+    justify-content : center;
+    align-items: center;
+    padding-top: 5rem;
+  }
+
+
+.titre {
+    width: 80%;
+    margin: auto;
+    margin-top: 1rem;
+    background-color: var(--headings-box);
+    padding: 0.5rem;
+    color: var(--headings-text);
+    border: none;
+    border-radius: 10px;
+    float: center;
+    font-size: 1.25rem;
+    font-family: "inter", sans-serif;
+    box-shadow: 0 0 10px black;
+    font-weight: bold;
+  }
+
+  .titre > ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style-type: none;
+  }
+
+  .divtextprofil {
+    background-color:var(--box-color);
+    padding: 1.5rem;
+    width: 80%;
+    margin: auto;
+    margin-top: 1rem;
+    color: var(--text-color);
+    border: none;
+    border-radius: 10px;
+    float: center;
+    height: 35rem;
+    font-size: 1.2rem;
+    font-family: "inter", sans-serif;
+    box-shadow: 0 0 10px black;
+    overflow: hidden;
+    height: auto;
+  }
+
+  .divtextprofil > p {
+    display: flex;
+    justify-content: space-around;
+    size: clamp(1rem, 2.5vw, 3rem); 
+    
+    
+  }

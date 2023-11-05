@@ -1,0 +1,122 @@
+.photoform{
+  display : flex;
+    justify-content : center;
+    align-items: center;
+    padding-top: 2rem; 
+}
+
+.ecole{   
+  display: block;
+  margin: auto;
+  width:15rem;
+  height: 15rem;
+  border-radius: 70%;
+  justify-content : center;
+  box-shadow: 0 0 10px black;
+  margin-top: 1rem;
+}
+
+
+
+.titreform{
+  display : flex;
+  justify-content : center;
+  align-items: center;
+  background-color: var(--headings-box);
+  color: var(--headings-text);
+  line-height: 150%;
+  text-shadow: #683e0b 2px 0 12px;
+  padding: 0.5rem;
+  margin-bottom: 2rem;
+  width: 80%;
+  margin: auto;
+  margin-top: 1rem;
+  border: none;
+  border-radius: 10px;
+  float: center;
+  font-size: 1.75rem;
+  font-family: "inter", sans-serif; 
+  font-weight : bold; 
+  height: auto;
+  box-shadow: 0 0 10px black;
+
+
+}
+
+
+.divtextf {
+  display:flex;
+  background-color:var(--box-color);
+  padding: 1.5rem;
+  width: 80%;
+  margin: auto;
+  margin-top: 1rem;
+  color: var(--text-color);
+  border: none;
+  border-radius: 10px;
+  float: center;
+  height: 40rem;
+  font-size: 1.2rem;
+  font-family: "inter", sans-serif;
+  flex-wrap : wrap;
+  justify-content :space-around;
+   height: auto;
+   box-shadow: 0 0 10px black;    
+}
+
+
+.ecole {
+  display: flex;
+  float: center;
+  margin: auto;
+  padding-top: 0rem;
+  height: auto;
+  flex-wrap: wrap ;
+}
+
+.p1Container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+
+.p1Text {
+  width: 60%;
+}
+
+.p1Img {
+  width: 40%;
+  height: auto;
+  margin : auto;
+}
+
+.P1Photogform {
+  border-radius: 60%;
+  margin-left: 14%;
+  margin-top: 0.2rem;
+}
+
+
+@media screen and (max-width: 887px) { 
+
+  .p1Text {
+    width: 100%;
+  }
+  
+  .p1Img {
+    display: none
+   }
+   
+  
+   .p2 {
+    display : flex;
+    float: right;
+    flex-wrap : wrap;
+    justify-content :flex-end;
+    height: auto;
+    margin: auto;
+   } 
+}
+    
+    

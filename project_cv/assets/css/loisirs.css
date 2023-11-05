@@ -1,0 +1,131 @@
+
+
+.titreloisir {
+  background-color: var( --headings-box); 
+  padding: 0.5rem;
+  margin: 2.5rem;
+  color: var(--headings-text);
+  border: none;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
+  font-family: "inter", sans-serif;
+  font-weight: bold;
+  width: 80%;
+  margin: auto;
+  margin-bottom: 3rem;
+  box-shadow: 0 0 10px black;
+  
+}
+
+  .photoboxloisir {   
+    display : flex;
+    justify-content : center;
+    align-items: center;
+    padding: 2rem;
+    
+}
+
+.photogrootloisir {
+  display: flex;
+  margin: auto;
+  width: 15rem;
+  border-radius: 70%;
+  height: 15rem;
+  justify-content : center;
+  box-shadow: 0 0 10px black;
+}
+
+section {
+  padding: 0.5rem;
+  margin: 0;
+  max-width: 5rem;
+  
+}
+
+.loisirRow {
+  display: flex;
+  justify-content: space-around;
+  flex-flow: wrap;
+}
+
+
+
+section.loisirs {
+ display: flex;
+  align-items: center;
+  gap: 7rem;
+  justify-content: center;
+}
+
+.sectionLoisir {
+  margin: auto;
+  width: 80%;
+  
+}
+
+.loisirItem {
+  display: flex;
+  color: #FFFFFF; 
+  font-family: "inter", sans-serif;
+  align-items: center;
+  text-align: center;
+  border-radius: 0.5rem;
+  box-shadow: -2px 5px 10px rgb(0 0 0 / 20%);
+  overflow: hidden; 
+  position: relative;
+  padding: 11rem 17rem;
+  max-width: 17rem;
+  max-height: 17rem;
+  justify-content: center;
+
+  margin-bottom: 30px;
+
+}
+.loisirItem h3 {
+display: none;
+}
+
+.loisirItem img {
+  width: 100%; /* L'image prend la largeur de la cellule "loisir1" */
+  height: 100%; /* L'image prend la hauteur de la cellule "loisir1" */
+  object-fit: cover; /* Redimensionner et recadrer l'image pour remplir la cellule "loisir1" */
+  border-radius: 0.5rem;
+  position: absolute;
+  
+  object-fit: cover;
+}
+
+/* CSS pour le survol des images */
+.loisirItem:hover img {
+  filter: brightness(50%); /* Assombrit l'image à 70% lors du survol */
+}
+  
+/* CSS pour afficher le texte h3 lors du survol */
+.loisirItem:hover h3 {
+  display: flex;
+  opacity: 1;
+  text-align: center;
+  align-items: center; /* Affiche le texte à 100% d'opacité lors du survol */
+  z-index: 1;
+}
+
+@media screen and (max-width: 768px) {
+  .loisirItem {
+    padding: 2rem; /* Réduisez le padding pour les écrans de petite taille */
+    width: 25rem; /* La largeur s'étend sur toute la largeur de l'écran */
+    height: 17rem;
+    max-width: none;
+    max-height: none;
+    margin-bottom: 20px; /* Réduisez l'espacement entre les cellules */
+   
+  }
+    
+}
+
+
+
+    
+
+
